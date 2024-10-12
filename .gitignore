@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+.vscode/
+cache/
+a.exe
+regard.c
+test.py
