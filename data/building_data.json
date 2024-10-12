@@ -1,0 +1,704 @@
+{
+    "": {
+        "name": "Zeta Tau Alpha",
+        "id": "137",
+        "long": -76.9361831249379,
+        "lat": 38.98325535
+    },
+    "IRB": {
+        "name": "Brendan Iribe Center",
+        "id": "432",
+        "long": -76.9364438800535,
+        "lat": 38.9891607057353
+    },
+    "EAF": {
+        "name": "E.A. Fernandez IDEA Factory",
+        "id": "228",
+        "long": -76.9380368584742,
+        "lat": 38.9903479373045
+    },
+    "ATL": {
+        "name": "Atlantic Building",
+        "id": "224",
+        "long": "-76.94309",
+        "lat": "38.99115"
+    },
+    "PFR": {
+        "name": "Prince Frederick Hall",
+        "id": "425",
+        "long": "-76.94579",
+        "lat": "38.98318"
+    },
+    "PBR": {
+        "name": "Paint Branch Turfgrass Research Facility",
+        "id": "230",
+        "long": "-76.94083",
+        "lat": "39.00701"
+    },
+    "PSC": {
+        "name": "Physical Sciences Complex",
+        "id": "415",
+        "long": "-76.94139",
+        "lat": "38.99077"
+    },
+    "TMH": {
+        "name": "Thurgood Marshall Hall",
+        "id": "433",
+        "long": -76.93869,
+        "lat": 38.98529
+    },
+    "YDH": {
+        "name": "Yahentamitsi",
+        "id": "436",
+        "long": -76.9446146376707,
+        "lat": 38.9910741490181
+    },
+    "FDA": {
+        "name": "A Harvey Wiley Federal Building FDA",
+        "id": "F01",
+        "long": -76.9261965846492,
+        "lat": 38.9770124
+    },
+    "AJC": {
+        "name": "A. James Clark Hall",
+        "id": "429",
+        "long": -76.937262,
+        "lat": 38.9919651
+    },
+    "AVW": {
+        "name": "A.V. Williams Building",
+        "id": "115",
+        "long": -76.9363418604721,
+        "lat": 38.99079905
+    },
+    "SSU": {
+        "name": "Adele H. Stamp Student Union Buildings",
+        "id": "163",
+        "long": -76.9447218233957,
+        "lat": 38.98816455
+    },
+    "AGY": {
+        "name": "Allegany Hall (Residence Hall)",
+        "id": "024",
+        "long": -76.9414146,
+        "lat": 38.98157935
+    },
+    "ANS": {
+        "name": "Animal Science/Agricultural Engineering Building",
+        "id": "142",
+        "long": -76.9394592785606,
+        "lat": 38.99164625
+    },
+    "ANA": {
+        "name": "Anne Arundel Hall",
+        "id": "060",
+        "long": -76.94673185,
+        "lat": 38.98595025
+    },
+    "ARC": {
+        "name": "Architecture Building",
+        "id": "145",
+        "long": -76.9475462198212,
+        "lat": 38.98423555
+    },
+    "ASY": {
+        "name": "Art-Sociology Building",
+        "id": "146",
+        "long": -76.9478947752967,
+        "lat": 38.98528145
+    },
+    "BAL": {
+        "name": "Baltimore Hall (Residence Hall)",
+        "id": "016",
+        "long": -76.9421925409139,
+        "lat": 38.9822469
+    },
+    "BEL": {
+        "name": "Bel Air Hall (Residence Hall)",
+        "id": "099",
+        "long": -76.9426116,
+        "lat": 38.99281705
+    },
+    "EDU": {
+        "name": "Benjamin Building",
+        "id": "143",
+        "long": -76.9474215,
+        "lat": 38.9867095
+    },
+    "BPS": {
+        "name": "Biology-Psychology Building",
+        "id": "144",
+        "long": -76.9425929312518,
+        "lat": 38.98872265
+    },
+    "BMS": {
+        "name": "Biomolecular Sciences Building",
+        "id": "296",
+        "long": -76.9376944355845,
+        "lat": 38.99285415
+    },
+    "BRB": {
+        "name": "Biosciences Research Building",
+        "id": "413",
+        "long": -76.9428094130756,
+        "lat": 38.98897595
+    },
+    "BRD": {
+        "name": "Byrd Stadium",
+        "id": "364",
+        "long": -76.9475181930938,
+        "lat": 38.99033895
+    },
+    "CAL": {
+        "name": "Calvert Hall (Residence Hall)",
+        "id": "015",
+        "long": -76.9423134911421,
+        "lat": 38.98292125
+    },
+    "CCC": {
+        "name": "Cambridge Community Center",
+        "id": "097",
+        "long": -76.9429981,
+        "lat": 38.99217805
+    },
+    "CAM": {
+        "name": "Cambridge Hall (Residence Hall)",
+        "id": "096",
+        "long": -76.9430174173239,
+        "lat": 38.99172105
+    },
+    "CAR": {
+        "name": "Caroline Hall (Residence Hall)",
+        "id": "070",
+        "long": -76.9457925,
+        "lat": 38.9834966
+    },
+    "CRL": {
+        "name": "Caroll Hall (Residence Hall)",
+        "id": "065",
+        "long": -76.9456253332123,
+        "lat": 38.9839834
+    },
+    "CEC": {
+        "name": "Cecil Hall",
+        "id": "017",
+        "long": -76.9416573737624,
+        "lat": 38.9829463
+    },
+    "CEN": {
+        "name": "Centreville Hall (Residence Hall)",
+        "id": "098",
+        "long": -76.9421248952804,
+        "lat": 38.992271
+    },
+    "CHL": {
+        "name": "Charles Hall (Residence Hall)",
+        "id": "025",
+        "long": -76.9405193937813,
+        "lat": 38.9816226
+    },
+    "CHE": {
+        "name": "Chemical and Nuclear Engineering Building",
+        "id": "090",
+        "long": -76.9395374654513,
+        "lat": 38.99060895
+    },
+    "CHM": {
+        "name": "Chemistry Building",
+        "id": "091",
+        "long": -76.940171718657,
+        "lat": 38.98959475
+    },
+    "CHS": {
+        "name": "Chestertown Hall (Residence Hall)",
+        "id": "121",
+        "long": -76.9434348,
+        "lat": 38.99280355
+    },
+    "PAC": {
+        "name": "Clarice Smith Performing Arts Center",
+        "id": "386",
+        "long": -76.9504434053224,
+        "lat": 38.9906807
+    },
+    "COL": {
+        "name": "Cole Student Activities Building",
+        "id": "162",
+        "long": -76.9467662555511,
+        "lat": 38.98797155
+    },
+    "CSS": {
+        "name": "Computer and Space Sciences Building",
+        "id": "224",
+        "long": -76.9425669540912,
+        "lat": 38.9909812
+    },
+    "CSI": {
+        "name": "Computer Science Instructional Center",
+        "id": "406",
+        "long": -76.9361946,
+        "lat": 38.98999465
+    },
+    "CBD": {
+        "name": "Cumberland Hall (Residence Hall)",
+        "id": "122",
+        "long": -76.9439244117559,
+        "lat": 38.9922614
+    },
+    "DEN": {
+        "name": "Denton Hall (Residence Hall)",
+        "id": "252",
+        "long": -76.9499786106729,
+        "lat": 38.99223865
+    },
+    "DOR": {
+        "name": "Dorchester Hall (Residence Hall)",
+        "id": "064",
+        "long": -76.9461812019092,
+        "lat": 38.9867742
+    },
+    "EAS": {
+        "name": "Easton Hall (Residence Hall)",
+        "id": "253",
+        "long": -76.9502564099265,
+        "lat": 38.9930193
+    },
+    "ESJ": {
+        "name": "Edward St. John Learning and Teaching Center",
+        "id": "226",
+        "long": -76.941914,
+        "lat": 38.986699
+    },
+    "ELK": {
+        "name": "Elkton Hall (Residence Hall)",
+        "id": "254",
+        "long": -76.9489576649778,
+        "lat": 38.9925108
+    },
+    "ELL": {
+        "name": "Ellicott Hall (Residence Hall)",
+        "id": "256",
+        "long": -76.9466586443134,
+        "lat": 38.9918228
+    },
+    "EAB": {
+        "name": "Engineering Annex",
+        "id": "093",
+        "long": -76.9370872500394,
+        "lat": 38.99073865
+    },
+    "EGL": {
+        "name": "Engineering Laboratory Building",
+        "id": "089",
+        "long": -76.9379467111811,
+        "lat": 38.98926235
+    },
+    "ERC": {
+        "name": "Eppley Campus Recreation Center",
+        "id": "068",
+        "long": -76.9452703132821,
+        "lat": 38.99358165
+    },
+    "KEY": {
+        "name": "Francis Scott Key Hall",
+        "id": "048",
+        "long": -76.9430892753028,
+        "lat": 38.98506175
+    },
+    "FRD": {
+        "name": "Frederick Hall (Residence Hall)",
+        "id": "029",
+        "long": -76.9407467785094,
+        "lat": 38.98204525
+    },
+    "GRT": {
+        "name": "Garrett Hall (Residence Hall)",
+        "id": "031",
+        "long": -76.9426804,
+        "lat": 38.98323575
+    },
+    "GEO": {
+        "name": "Geology Building",
+        "id": "237",
+        "long": -76.9409099576973,
+        "lat": 38.9881304
+    },
+    "GLF": {
+        "name": "Golf Course Clubhouse",
+        "id": "166",
+        "long": -76.9547070820405,
+        "lat": 38.99113325
+    },
+    "HJP": {
+        "name": "H.J. Patterson Hall",
+        "id": "073",
+        "long": -76.9432766035148,
+        "lat": 38.98708535
+    },
+    "HAG": {
+        "name": "Hagerstown Hall (Residence Hall)",
+        "id": "258",
+        "long": -76.9474136961276,
+        "lat": 38.9924384
+    },
+    "HRF": {
+        "name": "Harford Hall (Residence Hall)",
+        "id": "014",
+        "long": -76.9408308448032,
+        "lat": 38.9824913
+    },
+    "HAR": {
+        "name": "Harrison Lab",
+        "id": "002",
+        "long": -76.9356386027744,
+        "lat": 38.98703195
+    },
+    "HZF": {
+        "name": "Holzapfel Hall (Horticulture)",
+        "id": "074",
+        "long": -76.9418893729789,
+        "lat": 38.98687755
+    },
+    "HBK": {
+        "name": "Hornbake Library",
+        "id": "147",
+        "long": -76.9415740921482,
+        "lat": 38.9881767
+    },
+    "HOW": {
+        "name": "Howard Hall (Residence Hall)",
+        "id": "028",
+        "long": -76.9419727992265,
+        "lat": 38.98196065
+    },
+    "IPT": {
+        "name": "Institute for Physical Science and Technology Storage",
+        "id": "086",
+        "long": -76.941282950122,
+        "lat": 38.9908276
+    },
+    "ITV": {
+        "name": "Instructional Television Facility",
+        "id": "045",
+        "long": -76.9383093000325,
+        "lat": 38.98957525
+    },
+    "JMP": {
+        "name": "J.M. Patterson Building",
+        "id": "083",
+        "long": -76.940295409728,
+        "lat": 38.9905177
+    },
+    "KEB": {
+        "name": "Jeong H. Kim Engineering Building",
+        "id": "225",
+        "long": -76.938025589911,
+        "lat": 38.9909099
+    },
+    "JMZ": {
+        "name": "Jimenez Hall",
+        "id": "034",
+        "long": -76.94455005,
+        "lat": 38.9867867
+    },
+    "JUL": {
+        "name": "Jull Hall",
+        "id": "227",
+        "long": -76.9435848,
+        "lat": 38.99087705
+    },
+    "KNT": {
+        "name": "Kent Hall (Residence Hall)",
+        "id": "022",
+        "long": -76.9418433747954,
+        "lat": 38.98324525
+    },
+    "KNI": {
+        "name": "Knight Hall",
+        "id": "417",
+        "long": -76.9484189,
+        "lat": 38.98677255
+    },
+    "LPA": {
+        "name": "LaPlata Hall (Residence Hall)",
+        "id": "259",
+        "long": -76.9458907104711,
+        "lat": 38.9924497
+    },
+    "LEF": {
+        "name": "LeFrak Hall",
+        "id": "038",
+        "long": -76.9436347921034,
+        "lat": 38.9836849
+    },
+    "MMH": {
+        "name": "Marie Mount Hall",
+        "id": "046",
+        "long": -76.94075799224,
+        "lat": 38.9850013
+    },
+    "EGR": {
+        "name": "Martin Hall",
+        "id": "088",
+        "long": -76.9379744096244,
+        "lat": 38.9888688
+    },
+    "MTH": {
+        "name": "Mathematics Building",
+        "id": "084",
+        "long": -76.9390688130666,
+        "lat": 38.98862265
+    },
+    "MCK": {
+        "name": "McKeldin Library",
+        "id": "035",
+        "long": -76.9451004712142,
+        "lat": 38.98598155
+    },
+    "MKM": {
+        "name": "McKeldin Mall",
+        "id": "D106",
+        "long": -76.9422685216793,
+        "lat": 38.9859886
+    },
+    "MCB": {
+        "name": "Microbiology Building",
+        "id": "231",
+        "long": -76.9434034376443,
+        "lat": 38.98811525
+    },
+    "MNT": {
+        "name": "Montgomery Hall (Residence Hall)",
+        "id": "032",
+        "long": -76.9396753369829,
+        "lat": 38.9820505
+    },
+    "MOR": {
+        "name": "Morrill Hall",
+        "id": "040",
+        "long": -76.944173786884,
+        "lat": 38.9843126
+    },
+    "NCC": {
+        "name": "Nyumburu Cultural Center",
+        "id": "232",
+        "long": -76.9438057866404,
+        "lat": 38.9881339
+    },
+    "PHY": {
+        "name": "Physics Building",
+        "id": "082",
+        "long": -76.94007719774,
+        "lat": 38.9886972
+    },
+    "PLS": {
+        "name": "Plant Science Building",
+        "id": "036",
+        "long": -76.9413596237531,
+        "lat": 38.98873715
+    },
+    "PKT": {
+        "name": "Preinkert Field House",
+        "id": "054",
+        "long": -76.9461320708538,
+        "lat": 38.9844511
+    },
+    "PGG": {
+        "name": "Prince Georges Hall",
+        "id": "021",
+        "long": -76.941826725,
+        "lat": 38.9825857
+    },
+    "QAN": {
+        "name": "Queen Annes Hall",
+        "id": "061",
+        "long": -76.9460068545931,
+        "lat": 38.98519025
+    },
+    "ARM": {
+        "name": "Reckord Armory",
+        "id": "078",
+        "long": -76.9389662139866,
+        "lat": 38.9860268
+    },
+    "RIT": {
+        "name": "Ritchie Coliseum",
+        "id": "004",
+        "long": -76.936456447182,
+        "lat": 38.98504805
+    },
+    "SCUB 1": {
+        "name": "Satellite Central Utilities Building 1",
+        "id": "019",
+        "long": -76.9404483999786,
+        "lat": 38.98202525
+    },
+    "SCUB 2": {
+        "name": "Satellite Central Utilities Building 2",
+        "id": "067",
+        "long": -76.9446545340067,
+        "lat": 38.9835376
+    },
+    "SCUB 3": {
+        "name": "Satellite Central Utilities Building 3",
+        "id": "392",
+        "long": -76.9459512158262,
+        "lat": 38.98909655
+    },
+    "SCUB 4": {
+        "name": "Satellite Central Utilities Building 4",
+        "id": "405",
+        "long": -76.9383176,
+        "lat": 38.98979345
+    },
+    "SPH": {
+        "name": "School of Public Health",
+        "id": "255",
+        "long": -76.9431633838994,
+        "lat": 38.9934922
+    },
+    "SHM": {
+        "name": "Shoemaker Building",
+        "id": "037",
+        "long": -76.942745495777,
+        "lat": 38.9839376
+    },
+    "SHR": {
+        "name": "Shriver Laboratory",
+        "id": "075",
+        "long": -76.94191685,
+        "lat": 38.98727505
+    },
+    "SKN": {
+        "name": "Skinner Building",
+        "id": "044",
+        "long": -76.9418413304917,
+        "lat": 38.98480955
+    },
+    "SOM": {
+        "name": "Somerset Hall (Residence Hall)",
+        "id": "063",
+        "long": -76.9455473,
+        "lat": 38.9850026
+    },
+    "SDH": {
+        "name": "South Campus Dining Hall",
+        "id": "026",
+        "long": -76.9436837393588,
+        "lat": 38.983048
+    },
+    "STM": {
+        "name": "St. Mary's Hall (Residence Hall)",
+        "id": "062",
+        "long": -76.9455983683182,
+        "lat": 38.9870071
+    },
+    "SDG": {
+        "name": "Stadium Drive Parking Garage",
+        "id": "218",
+        "long": -76.9489997913519,
+        "lat": 38.9910407
+    },
+    "SQH": {
+        "name": "Susquehanna Hall",
+        "id": "233",
+        "long": -76.943749743933,
+        "lat": 38.9820745
+    },
+    "SYM": {
+        "name": "Symons Hall",
+        "id": "076",
+        "long": -76.9406455474374,
+        "lat": 38.9870811
+    },
+    "TAL": {
+        "name": "Talbot Hall (Residence Hall)",
+        "id": "030",
+        "long": -76.9422561,
+        "lat": 38.9833387
+    },
+    "TLF": {
+        "name": "Taliaferro Hall",
+        "id": "043",
+        "long": -76.9430948392412,
+        "lat": 38.98484635
+    },
+    "TWS": {
+        "name": "Tawes Fine Arts Building",
+        "id": "141",
+        "long": -76.9483238494655,
+        "lat": 38.98598645
+    },
+    "TUR": {
+        "name": "Turner Hall (Dairy/Visitor Center)",
+        "id": "079",
+        "long": -76.9373371743758,
+        "lat": 38.98614065
+    },
+    "TYD": {
+        "name": "Tydings Hall",
+        "id": "042",
+        "long": -76.9440007655894,
+        "lat": 38.9848516
+    },
+    "ICC": {
+        "name": "UMUC Inn and Conference Center (ICC)",
+        "id": "345",
+        "long": -76.9540770364453,
+        "lat": 38.9860659
+    },
+    "SFSC": {
+        "name": "UMUC Student and Faculty Services Center",
+        "id": "346",
+        "long": -76.9533396302397,
+        "lat": 38.9866594
+    },
+    "PGUC": {
+        "name": "UMUC/University College Garage (PGUC)",
+        "id": "347",
+        "long": -76.9544177389556,
+        "lat": 38.98699405
+    },
+    "ULG": {
+        "name": "Union Lane Parking Garage",
+        "id": "179",
+        "long": -76.9458968038597,
+        "lat": 38.98840855
+    },
+    "VMH": {
+        "name": "Van Munching Hall",
+        "id": "039",
+        "long": -76.9470382916646,
+        "lat": 38.9830467
+    },
+    "WSH": {
+        "name": "Washington Hall (Residence Hall)",
+        "id": "023",
+        "long": -76.9413924749198,
+        "lat": 38.9818076
+    },
+    "WIC": {
+        "name": "Wicomico Hall (Residence Hall)",
+        "id": "069",
+        "long": -76.9458442795105,
+        "lat": 38.9837427
+    },
+    "WTU": {
+        "name": "Wind Tunnel Building",
+        "id": "081",
+        "long": -76.9368484609687,
+        "lat": 38.9899002
+    },
+    "WDS": {
+        "name": "Woods Hall",
+        "id": "047",
+        "long": -76.9418451233709,
+        "lat": 38.9851106
+    },
+    "WOR": {
+        "name": "Worchester Hall (Residence Hall)",
+        "id": "051",
+        "long": -76.9449993420465,
+        "lat": 38.98467285
+    }
+}
