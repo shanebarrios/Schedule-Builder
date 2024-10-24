@@ -1,0 +1,153 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(131, 0.5vh);
+    grid-template-columns: 2em repeat(5, 8vw);
+    margin-top: 20px;
+    margin-right: 2em;
+}
+
+.large-gap {
+    gap: 30px;
+}
+
+.small-gap {
+    gap: 10px;
+}
+
+.disclaimers {
+    text-align: center;
+    color: #595959;
+}
+
+.side-by-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input:hover {
+    background-color: lightblue;
+}
+
+
+.generate-button {
+    width: 200px;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+.generate-button:hover {
+    background-color: yellow;
+}
+
+.nav-button {
+    width: 100px;
+    height: 50px;
+}
+
+.input-half {
+    display: flex;
+    flex-direction: column;
+}
+
+.error {
+    color: red;
+}
+
+h1 {
+    margin-left: 10px;
+    font-size: 3em;
+    font-family: "Verdana";
+}
+
+img {
+    width: auto;
+    height: 100%;
+}
+
+.top {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monday { 
+    grid-column: 2/3;
+}
+
+.tuesday {
+    grid-column: 3/4;
+}
+
+.wednesday {
+    grid-column: 4/5;
+}
+
+.thursday {
+    grid-column: 5/6;
+}
+
+.friday {
+    grid-column: 6/7;
+}
+
+.day-header {
+    bottom: 0;
+    grid-row: 1/2;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.time {
+    grid-column: 1/2;
+    text-align: right;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.evencol {
+    background-color: #fafafa;
+    grid-row: 2/-1;
+}
+
+.oddcol {
+    background-color: rgb(233, 233, 233);
+    grid-row: 2/-1;
+}
+
+.horizontal-line {
+    border-bottom: thin dotted #ccc;
+    grid-column: 2/-1;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-family: "Verdana";
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container small-gap">
+        <div class="top">
+            <img src="{{ url_for('static', filename='Maryland_Terrapins_logo.svg.png') }}">  
+            <h1>Schedule Builder</h1>
+        </div>
+        <div class="grid-container"> 
+            {% for day in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'] %}
+                <div class="day-header {{ day }}">{{ day.capitalize() }}</div>
+                <div class="{{ 'evencol' if loop.index % 2 == 1 else 'oddcol' }} {{ day }}"></div>
+            {% endfor %}
+            {% for hour in range(8, 19) %}
+                <div class="time" style="grid-row: {{ hour*12-94 }}/{{ hour*12-82 }}">{{ hour if hour < 13 else hour - 12 }}</div>
+                <div class="horizontal-line" style="grid-row: {{ hour*12-94 }}/{{ hour*12-82 }}"></div>
+            {% endfor %}
+            {% set colors = ["#9f7cc4", "#4e946b", "#b0767c", "#c29361", "#69b8aa", "#878bc9", "#b5b26e"] %}
+            {% for section in sections %}
+                {% set color = colors[loop.index-1] %}
+                {% for day in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'] %}
+                    {% for meeting in section.meetings[loop.index-1] %}
+                        {% set parts = section.section_id.split('-') %}
+                        <div class="section {{ day }}" style="background-color: {{ color }}; grid-row: {{ meeting.start_time//5-94 }}/{{ meeting.end_time//5-94 }}">{{parts[0]}}<br>{{parts[1]}}</div>
+                    {% endfor %}
+                {% endfor %}
+            {% endfor %}
+        </div>
+        <div><h2 style="text-align: center;">Average professor rating: {{average_rating}}</h2></div>
+        
+        <div class="side-by-side">     
+            {% if index > 0 %}
+            <form action="{{ url_for('show_schedule', index=index-1 ) }}" method="get">
+                <button class="nav-button">Prev</button>
+            </form>    
+            {% endif %}
+            {% if index < len-1 %}
+            <form action="{{ url_for('show_schedule', index=index+1) }}" method="get">
+                <button class="nav-button">Next</button>
+            </form>
+            {% endif %}
+        </div>
+        </div>
+    </div>
+</body>
+</html>

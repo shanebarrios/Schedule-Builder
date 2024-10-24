@@ -13,7 +13,6 @@ def get_request(url, params):
     else:
         print(f"Error: {response.status_code}")
         exit()
-
     return data
 
 def request_all(url, params, inc_func):

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    
+    <div class="container large-gap">
+        <div class="top">
+            <img src="{{ url_for('static', filename='Maryland_Terrapins_logo.svg.png') }}">  
+            <h1>Schedule Builder</h1>
+        </div>
+        <div class="disclaimers">
+                <h2>Disclamer: This site is not affiliated with the University of Maryland</h2>
+                <h3>Disclaimer 2: A score of 3.0 is assigned to sections with missing professor data</h3>
+                <h4>Disclaimer 3: Sry this website kinda sucks I didn't feel like learning JavaScript</h4>
+        </div>
+        <form action="/submit" method="POST" id="submit" class="side-by-side">
+            <div class="input-half">
+                <input name="course1" type="text" placeholder="Course/Section 1">
+                <input name="course2" type="text" placeholder="Course/Section 2">
+                <input name="course3" type="text" placeholder="Course/Section 3">
+                <input name="course4" type="text" placeholder="Course/Section 4">
+                <input name="course5" type="text" placeholder="Course/Section 5">
+                <input name="course6" type="text" placeholder="Course/Section 6">
+                <input name="course7" type="text" placeholder="Course/Section 7">
+            </div>
+            <div class="input-half">
+                <label>Your movement pace:</label>
+                <select name="pace">
+                    <option value="normal">Normal</option>
+                    <option value="fast">Fast</option>
+                    <option value="running">Running</option>
+                    <option value="scooter">Scooter/Bike</option>
+                </select>
+                <label>Earliest class start time:</label>
+                <select name="earliest-start">
+                    <option value="0">Any</option>
+                    <option value="480">8:00am</option>
+                    <option value="510">8:30am</option>
+                    <option value="540">9:00am</option>
+                    <option value="570">9:30am</option>
+                    <option value="600">10:00am</option>
+                    <option value="630">10:30am</option>
+                    <option value="660">11:00am</option>
+                    <option value="690">11:30am</option>
+                    <option value="720">12:00pm</option>
+                </select>
+                <label>Latest class end time:</label>
+                <select name="latest-end">
+                    <option value="1440">Any</option>
+                    <option value="780">1:00pm</option>
+                    <option value="810">1:30pm</option>
+                    <option value="840">2:00pm</option>
+                    <option value="870">2:30pm</option>
+                    <option value="900">3:00pm</option>
+                    <option value="930">3:30pm</option>
+                    <option value="960">4:00pm</option>
+                    <option value="990">4:30pm</option>
+                    <option value="1020">5:00pm</option>
+                    <option value="1050">5:30pm</option>
+                    <option value="1080">6:00pm</option>
+                </select>
+            </div>
+        </form>
+        {% if error_msg %}
+            <p class="error">{{ error_msg }}</p>
+        {% endif %}
+        <button class="generate-button" type="submit" form="submit">Generate schedules</button>
+    </div>
+</body>
+</html>
